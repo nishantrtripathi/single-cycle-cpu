@@ -1,0 +1,24 @@
+# Simulation output
+build/
+*.vvp
+*.vcd
+*.fst
+*.wlf
+obj_dir/
+
+# Vivado
+.Xil/
+*.jou
+*.log
+*.str
+vivado*.backup.*
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db

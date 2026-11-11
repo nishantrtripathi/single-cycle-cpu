@@ -1,0 +1,6 @@
+# Expected final state for arith_chain.S
+x1 0x00000005
+x2 0x00000003
+x3 0x00000008
+x4 0x00000003
+# TODO: add lines as the program grows
