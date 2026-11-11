@@ -1,0 +1,21 @@
+{
+    "name": "single-cycle-cpu",
+    "workspaceFolder": "/workspaces/single-cycle-cpu",
+    "build": { "dockerfile": "Dockerfile" },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mshr-h.veriloghdl",
+                "surfer-project.surfer"
+            ],
+            "settings": {
+                "verilog.linting.linter": "verilator",
+                "verilog.linting.verilator.arguments": "--timing -Wall -Wno-DECLFILENAME -Wno-UNUSEDSIGNAL -Wno-UNUSEDPARAM -Wno-MODDUP -I/workspaces/single-cycle-cpu/rtl -I/workspaces/single-cycle-cpu/tb/common /workspaces/single-cycle-cpu/rtl/riscv_pkg.sv",
+                "files.eol": "\n"
+            }
+        }
+    },
+
+    "postCreateCommand": "chmod +x scripts/*.sh && iverilog -V | head -1 && verilator --version && riscv64-unknown-elf-gcc --version | head -1"
+}
