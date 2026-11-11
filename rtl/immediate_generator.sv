@@ -1,6 +1,6 @@
 // =============================================================================
 // immediate_generator.sv  --  build sign-extended immediates
-// Owner: Developer B
+// Owner: Ishan Katakam
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Use imm_type (from control_unit) to choose the format, then

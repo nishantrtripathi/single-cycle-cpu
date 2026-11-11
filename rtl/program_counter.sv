@@ -1,6 +1,6 @@
 // =============================================================================
 // program_counter.sv  --  the PC register
-// Owner: Developer A
+// Owner: Nishant Tripathi
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Hold the 32-bit address of the instruction currently executing.

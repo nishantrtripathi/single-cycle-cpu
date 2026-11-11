@@ -1,6 +1,6 @@
 // =============================================================================
 // control_unit.sv  --  main decoder: opcode -> datapath control signals
-// Owner: Developer B
+// Owner: Ishan Katakam
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Look ONLY at the opcode (funct3/funct7 decoding belongs to alu_control
