@@ -69,6 +69,7 @@ The exact decision and rationale live in [`docs/adr/ADR-001-rv32i-subset.md`](do
 ├── docs/
 │   ├── architecture.md
 │   └── adr/
+├── .devcontainer/             # shared dev environment (Dockerfile + config)
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   └── workflows/              # CI regression
@@ -84,7 +85,9 @@ scripts/asm2hex.sh               # rebuild program hex files
 vivado -mode batch -source fpga/build.tcl
 ```
 
-Requires Icarus Verilog (`iverilog` 11+), a RISC-V GCC toolchain for `asm2hex.sh`, and Vivado for the FPGA flow.
+**Recommended:** open the repo in the dev container (VS Code -> *Reopen in Container*, needs Docker Desktop). It installs Icarus Verilog, Verilator and the RISC-V GCC toolchain, so everyone runs the same versions. Vivado runs on the host and isn't part of the container.
+
+Without the container you need Icarus Verilog (`iverilog` 12+), a RISC-V GCC toolchain for `asm2hex.sh`, and a bash shell.
 
 ## Development Flow
 
