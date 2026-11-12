@@ -14,10 +14,8 @@ A two-person educational SystemVerilog project implementing a 32-bit single-cycl
 
 ## Team Roles
 
-Temporary names are used until the real owners are assigned.
-
-- **Developer A:** primary owner for datapath integration, ALU/register-file work, and FPGA synthesis.
-- **Developer B:** primary owner for decode/control, verification infrastructure, and program-level tests.
+- **Nishant Tripathi:** primary owner for datapath integration, ALU/register-file work, and FPGA synthesis.
+- **Ishan Katakam:** primary owner for decode/control, verification infrastructure, and program-level tests.
 - **Both:** review each other's pull requests and avoid merging unreviewed architectural changes.
 
 ## Planned v1 Instruction Subset

@@ -1,6 +1,6 @@
 // =============================================================================
 // alu_control.sv  --  pick the exact ALU operation
-// Owner: Developer B
+// Owner: Ishan Katakam
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Combine alu_intent (from control_unit) with funct3/funct7 to produce

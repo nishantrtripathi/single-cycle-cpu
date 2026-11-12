@@ -1,6 +1,6 @@
 // =============================================================================
 // instr_mem.sv  --  instruction memory (ROM)
-// Owner: Developer A
+// Owner: Nishant Tripathi
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Store DEPTH 32-bit words, preloaded from INIT_FILE with $readmemh

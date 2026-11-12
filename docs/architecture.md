@@ -16,18 +16,18 @@ Single-cycle RV32I core: every instruction completes in one clock cycle.
 | Module | Responsibility | Owner |
 |---|---|---|
 | `riscv_pkg` | Opcodes, funct codes, ALU ops, immediate types | Both |
-| `program_counter` | PC register, resets to `RESET_VECTOR` | A |
-| `instr_mem` | Instruction ROM, async read, `$readmemh` init | A |
-| `data_mem` | Data RAM, async read / sync write | A |
-| `instruction_decoder` | Splits instruction into fields | B |
-| `control_unit` | Opcode -> datapath control signals | B |
-| `alu_control` | Intent + funct3/funct7 -> ALU op | B |
-| `immediate_generator` | I/S/B immediates, sign-extended | B |
-| `register_file` | 32x32, 2R/1W, x0 = 0 | A |
-| `alu` | Arithmetic/logic ops, `zero` flag | A |
-| `branch_unit` | Branch decision, next PC | A |
-| `cpu_top` | Integration and muxes | A |
-| `fpga_top` | Board wrapper (`fpga/`) | A |
+| `program_counter` | PC register, resets to `RESET_VECTOR` | Nishant Tripathi |
+| `instr_mem` | Instruction ROM, async read, `$readmemh` init | Nishant Tripathi |
+| `data_mem` | Data RAM, async read / sync write | Nishant Tripathi |
+| `instruction_decoder` | Splits instruction into fields | Ishan Katakam |
+| `control_unit` | Opcode -> datapath control signals | Ishan Katakam |
+| `alu_control` | Intent + funct3/funct7 -> ALU op | Ishan Katakam |
+| `immediate_generator` | I/S/B immediates, sign-extended | Ishan Katakam |
+| `register_file` | 32x32, 2R/1W, x0 = 0 | Nishant Tripathi |
+| `alu` | Arithmetic/logic ops, `zero` flag | Nishant Tripathi |
+| `branch_unit` | Branch decision, next PC | Nishant Tripathi |
+| `cpu_top` | Integration and muxes | Nishant Tripathi |
+| `fpga_top` | Board wrapper (`fpga/`) | Nishant Tripathi |
 
 ## Control Signals
 <!-- TODO: truth table -->

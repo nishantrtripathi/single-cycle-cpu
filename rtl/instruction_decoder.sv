@@ -1,6 +1,6 @@
 // =============================================================================
 // instruction_decoder.sv  --  split an instruction into its fields
-// Owner: Developer B
+// Owner: Ishan Katakam
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Pure wiring (just continuous assigns), no logic decisions:

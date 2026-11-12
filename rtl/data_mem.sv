@@ -1,6 +1,6 @@
 // =============================================================================
 // data_mem.sv  --  data memory (RAM) for LW / SW
-// Owner: Developer A
+// Owner: Nishant Tripathi
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Store DEPTH 32-bit words, initialized to zero.

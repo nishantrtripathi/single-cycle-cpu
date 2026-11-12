@@ -1,6 +1,6 @@
 // =============================================================================
 // cpu_top.sv  --  single-cycle RV32I core (integration only)
-// Owner: Developer A
+// Owner: Nishant Tripathi
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Instantiate and wire every block. No real logic here beyond the 2 muxes.

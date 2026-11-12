@@ -1,6 +1,6 @@
 // =============================================================================
 // branch_unit.sv  --  branch decision + next-PC selection
-// Owner: Developer A
+// Owner: Nishant Tripathi
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Decide whether a branch is taken:

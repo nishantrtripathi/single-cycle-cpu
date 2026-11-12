@@ -1,6 +1,6 @@
 // =============================================================================
 // fpga_top.sv  --  board-level wrapper around cpu_top
-// Owner: Developer A
+// Owner: Nishant Tripathi
 // -----------------------------------------------------------------------------
 // WHAT THIS FILE NEEDS TO DO
 //   * Take the board clock and a reset push-button.
